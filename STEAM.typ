@@ -292,7 +292,17 @@
 ]
 
 
-= #emoji.woman Art #emoji.bikini
+= #emoji.cherries Art #emoji.lipstick
+
+#focus-slide(config: config-page(fill: rgb(255, 255, 255)))[
+  #place(
+    center + bottom,
+    dy: 60pt,
+    image("Figures/Art/roxy2.png"),
+  )
+
+]
+
 #slide()[
   #quoteblock([《愛麗絲鏡中奇遇記》], inset: 30pt)[
     “你不開心，” 白騎士用一種憂慮的聲調說，“讓我給你唱首歌安慰你吧......這首歌的名字叫做《黑線鱈的眼睛》。 ”
@@ -304,15 +314,15 @@
 ]
 
 #slide()[
-  #quoteblock([Friedrich Nietzsche, Aphorism 146, _Beyond Good and Evil(tr. M. Faber_], inset: 0pt)[
+  #quoteblock([Friedrich Nietzsche, Aphorism 146, _Beyond Good and Evil(tr. M. Faber)_], inset: 0pt)[
     Anyone who fights with monsters should take care that he does not in the process become a monster. And if you gaze for long into the abyess, the abyess gazes back into you.
   ]
 
 ]
 
-#focus-slide(config: config-page(fill: rgb(0,0,0)))[
+#focus-slide(config: config-page(fill: rgb(0, 0, 0)))[
 
-  #image("Figures/Art/roxy.jpg",fit:"stretch",height:135%,width: 117%)
+  #image("Figures/Art/roxy.jpg", fit: "stretch", height: 135%, width: 117%)
 ]
 
 = #emoji.church Math #emoji.books #emoji.bookmark
@@ -320,6 +330,11 @@
 #slide()[
   #quoteblock([Blaise Pascal, paraphrased], inset: 0pt)[
     I am writing a long book than usual because there is not enough time to write a short one.
+  ]
+  #v(1em)
+  #quoteblock([Hermann Weyl], inset: 0pt)[
+    "Ich kann es nun einmal nicht lassen, in diesem Drama von Mathematik und Physik --- die sich im Dunkeln befruchten, aber von Angesicht zu Angesicht so gerne einander verkennen und verleugnen --- die Rolle des (wie ich genügsam erfuhr, oft unerwünschten) Boten zu spielen."\
+    Hassani's book English version: In this drama of mathematics and physics --- which fertilize each other in the dark, but which prefer to deny and misconstrue each other face to face --- I cannot, however, resist playing the role of a messenger, albeit, as I have abundantly learned, often an unwelcome one.
   ]
 
 ]
