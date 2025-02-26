@@ -2,7 +2,7 @@
 // This theme is inspired by https://github.com/matze/mtheme
 // The origin code was written by https://github.com/Enivex
 
-#import "@preview/touying:0.5.5": *
+#import "@preview/touying:0.6.0": *
 
 #let left-center-right(left, center, right) = grid(
   columns: (auto, 1fr, auto, 1fr, auto),

@@ -47,10 +47,14 @@
   ]
   #v(2em)
   #quoteblock([Jules Henri Poincaré 《科學與方法》])[
-
     我指的是根源於自然各部分的和諧秩序、純理智能夠把握的內在美...正因為簡潔和浩瀚都是美的，所以我們優先尋求簡潔的事實和浩瀚的事實；所以我們追尋恆星的巨大軌道，用顯微鏡探察奇異的細小，在地質年代中追蹤過去的遺蹟
   ]
+]
 
+#slide()[
+  #quoteblock([Paul Adrien Maurice Dirac], inset: 10pt)[
+    The amount of theoretical ground one has to cover before being able to solve problems of real practical value is rather large, but this circumstance is an inevitable consequence of the fundamental part played by transformation theory and is likely to become more pronounced in the theoretical physics of the future.
+  ]
 ]
 
 #slide()[
@@ -86,13 +90,31 @@
 ]
 
 #slide()[
+  #quoteblock([Richard Hamming])[
+    The purpose of computing is insight, not numbers.
+  ]
+  #v(1em)
+  #quoteblock([Pablo Picasso])[
+    Computers are useless. They can only give you answers.
+  ]
+  #v(1em)
+  #quoteblock([Alan Key])[
+    The best way to predict the future is to invent it.
+  ]
+]
+
+
+#slide()[
+  #quoteblock([Donald Knuth])[
+    We should forget about small efficiencies, say about 97% of the time: premature optimization is the root of all evil.
+  ]
+  #v(2em)
   #quoteblock([Rob Pike (Co-Creator of Go)])[
     併發指同時處理多件事。 並行指同時做多件事\
     兩者不同，但有聯繫：
     一個關於結構，一個關於執行 \
     併發用於制定方案，用來解決可能（但未必）並行的問題
   ]
-
 ]
 
 #slide()[
@@ -107,7 +129,7 @@
 
 == #emoji.computer Programming
 #focus-slide()[
-  #image("Figures/Techology/compiling.png")
+  #image("Figures/Techology/compiling.png", fit: "stretch", width: 117%, height: 135%)
 ]
 
 #slide()[
@@ -296,6 +318,10 @@
 
 #focus-slide(config: config-page(fill: rgb(255, 255, 255)))[
   #place(
+    top + center,
+    text(fill: blue)[_You must unlearn what you have learned_],
+  )
+  #place(
     center + bottom,
     dy: 60pt,
     image("Figures/Art/roxy2.png"),
@@ -304,6 +330,7 @@
 ]
 
 #slide()[
+
   #quoteblock([《愛麗絲鏡中奇遇記》], inset: 30pt)[
     “你不開心，” 白騎士用一種憂慮的聲調說，“讓我給你唱首歌安慰你吧......這首歌的名字叫做《黑線鱈的眼睛》。 ”
 
@@ -325,16 +352,37 @@
   #image("Figures/Art/roxy.jpg", fit: "stretch", height: 135%, width: 117%)
 ]
 
+
+#focus-slide(config: config-page(fill: rgb(0, 0, 0)))[
+
+  #image("Figures/Art/cover.jpg", fit: "stretch", height: 135%, width: 117%)
+]
+
+
 = #emoji.church Math #emoji.books #emoji.bookmark
+
+#slide()[
+  #quoteblock([Richard Elwes], inset: 10pt)[
+    _The Classification of Quasithin Groups (Aschbacher and Smith 2004)_ Undoubtedly one of the most extraordinary theorems that pure mathematics has ever seen.
+  ]
+  The Monster Group, the largest sporadic simple group in finite group theory. It acts on 196833 dimensions over the complex numbers, but on 196882 over a finite field with 2 elements.
+  #quoteblock([Richard Borcherds], inset: 0pt)[
+    The monster simple group...appears to be rely on numerous bizarre coincidences to exist.
+  ]
+  String Theory, Sporadic Groups and Moonshine.
+  #quoteblock([John Conway], inset: 0pt)[
+    Nothing has given me the feeling that I understand why the monster is there. *Moonshine !* series expansion relative to Modular Form of weight 196884.
+  ]
+
+]
 
 #slide()[
   #quoteblock([Blaise Pascal, paraphrased], inset: 0pt)[
     I am writing a long book than usual because there is not enough time to write a short one.
   ]
-  #v(1em)
+  #v(2em)
   #quoteblock([Hermann Weyl], inset: 0pt)[
-    "Ich kann es nun einmal nicht lassen, in diesem Drama von Mathematik und Physik --- die sich im Dunkeln befruchten, aber von Angesicht zu Angesicht so gerne einander verkennen und verleugnen --- die Rolle des (wie ich genügsam erfuhr, oft unerwünschten) Boten zu spielen."\
-    Hassani's book English version: In this drama of mathematics and physics --- which fertilize each other in the dark, but which prefer to deny and misconstrue each other face to face --- I cannot, however, resist playing the role of a messenger, albeit, as I have abundantly learned, often an unwelcome one.
+    In this drama of mathematics and physics --- which fertilize each other in the dark, but which prefer to deny and misconstrue each other face to face --- I cannot, however, resist playing the role of a messenger, albeit, as I have abundantly learned, often an unwelcome one. (in Hassani's book _Mathematical Physics A Modern Introduction to Its Foundations_)
   ]
 
 ]
