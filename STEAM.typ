@@ -25,7 +25,7 @@
 
 
   config-info(
-    title: [Selected STEAM Mottos],
+    title: [STEAM Motto Collections],
     subtitle: [The Wisdom Quotes I Appreciate],
     author: [岡崎夢美教授],
     date: datetime.today(),
@@ -55,12 +55,15 @@
   #quoteblock([Paul Adrien Maurice Dirac], inset: 10pt)[
     The amount of theoretical ground one has to cover before being able to solve problems of real practical value is rather large, but this circumstance is an inevitable consequence of the fundamental part played by transformation theory and is likely to become more pronounced in the theoretical physics of the future.
   ]
+  #v(1em)
+  #quoteblock([Steven Weinberg])[
+    The effort to understand the Universe is one of the very few things that lifts human life above the level of farce, and gives it some of the grace of tragedy.
+  ]
 ]
 
 #slide()[
-  #quoteblock([Albert Einstain (may be...)])[
-    Physics (Everything) should be made as simple as possible, but not simpler. \
-    It can scarcely be denied that the supreme goal of all theory is to make the irreducible basic elements as simple and as few as possible without having to surrender the adequate representation of a single datum of experience.
+  #quoteblock([Subrahmanyan Chandrasekhar _The Mathematical Theory of Black Holes_])[
+    The black holes of nature are the most perfect macroscopic objects there are in the universe: the only elements in their construction are our concepts of space and time. And since the general theory of relativity provides only a single unique family of solutions for their descriptions, they are the simplest objects as well.
   ]
   #v(1em)
   #quoteblock([Sydney Coleman])[
@@ -69,10 +72,15 @@
 ]
 
 #slide()[
-  #quoteblock([Subrahmanyan Chandrasekhar _The Mathematical Theory of Black Holes_])[
-    " The black holes of nature are the most perfect macroscopic objects there are in the universe: the only elements in their construction are our concepts of space and time. And since the general theory of relativity provides only a single unique family of solutions for their descriptions, they are the simplest objects as well."
+  #quoteblock([Johannes Kepler])[
+    The squares of the periodic times are to each other as the cubes of the mean distance.
   ]
+  #v(1em)
+  #quoteblock([Albert Einstain (may be...)], inset: 0pt)[
+    Physics (Everything) should be made as simple as possible, but not simpler. \
 
+    It can scarcely be denied that the supreme goal of all theory is to make the irreducible basic elements as simple and as few as possible without having to surrender the adequate representation of a single datum of experience.
+  ]
 ]
 
 = #emoji.computer Techology #emoji.computermouse
@@ -360,6 +368,16 @@
 
 
 = #emoji.church Math #emoji.books #emoji.bookmark
+#slide()[
+  #quoteblock([Pierre-Simon, Marquis de Laplace])[
+    Probability theory is nothing but common sense reduced to calculation.
+  ]
+  #v(1em)
+  #quoteblock([Jerry Friedman])[
+    (If the statistics field had) incorporated computing methodology from its insception as a fundamental tool, as opposed to simply a convenient way to apply our existing tools, many of the other data related fields (such as ML) would not have needed to exist --- they would have been part of statistics.
+  ]
+]
+
 
 #slide()[
   #quoteblock([Richard Elwes], inset: 10pt)[
@@ -377,8 +395,8 @@
 ]
 
 #slide()[
-  #quoteblock([Blaise Pascal, paraphrased], inset: 0pt)[
-    I am writing a long book than usual because there is not enough time to write a short one.
+  #quoteblock([John von Neumann], inset: 10pt)[
+    If people do not believe that mathematics is simple, it is only because they do not realize how complicated life is.
   ]
   #v(2em)
   #quoteblock([Hermann Weyl], inset: 0pt)[
@@ -389,10 +407,10 @@
 
 
 #slide()[
-  #quoteblock([Richard Feynman], inset: 15pt)[
-    If all mathematics were to disappear, physics would be set back exactly one week.
+  #quoteblock([Blaise Pascal, paraphrased], inset: 0pt)[
+    I am writing a long book than usual because there is not enough time to write a short one.
   ]
-  #v(2em)
+  #v(1em)
   #quoteblock(
     [Michel Talagrand _What is Quantum Field theory_ \ Comments of how a young physicist get trained],
     inset: 4pt,
@@ -401,3 +419,12 @@
   ]
 ]
 
+#slide()[
+  #quoteblock([Richard Feynman], inset: 10pt)[
+    If all mathematics were to disappear, physics would be set back exactly one week.
+  ]
+  #v(1em)
+  #quoteblock([Michael Atiyah], inset: 10pt)[
+    That was the week that God created the universe.
+  ]
+]
