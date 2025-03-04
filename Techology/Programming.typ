@@ -171,43 +171,30 @@
   #text(red, tree-list(
   marker: text(aqua)[├── ],
   last-marker: text(aqua)[└── ],
-  indent: text(aqua)[#h(0.1em)│#h(3em)],
-  empty-indent: h(2em),
+  indent: text(aqua)[│],
+  empty-indent: h(3em),
 )[
-  - accumulate
-    - 1.1
-      - 1.1.1
-    - 1.2
-      - 1.2.1
-      - 1.2.2
-        - 1.2.2.1
-  - reduce
-  - fold
-    - 3.1
-      - 3.1.1
-    - 3.2
+  - Iterators.accumulate(f, itr; [init])
+  - accumulate(op, A; dims::Integer, [init])
+    - cumsum(A; dims::Integer)
+    - cumproduct(A; dims::Integer)
+
 ])
-][
-  
 ][
   #text(red, tree-list(
   marker: text(aqua)[├── ],
   last-marker: text(aqua)[└── ],
-  indent: text(aqua)[#h(0.1em)│#h(3em)],
-  empty-indent: h(2em),
+  indent: text(aqua)[│],
+  empty-indent: h(3em),
 )[
-  - accumulate
-    - 1.1
-      - 1.1.1
-    - 1.2
-      - 1.2.1
-      - 1.2.2
-        - 1.2.2.1
-  - reduce
-  - fold
-    - 3.1
-      - 3.1.1
-    - 3.2
+
+  - reduce(f, A; dims=:, [init])
+  - mapslices(f, A; dims)
+  - foldl(op, itr; [init])
+  - foldr(op, itr; [init])
+  - mapreduce $-->$ implement dependent
+    - mapfoldl(f, op, itr; [init])
+    - mapfoldr(f, op, itr; [init])
 ])
 ]
 
