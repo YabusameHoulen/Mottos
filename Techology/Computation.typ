@@ -1,4 +1,5 @@
 #import "../settings.typ": *
+#import "@preview/treet:0.1.1": *
 
 == #emoji.pencil Computation
 #slide()[
@@ -11,6 +12,45 @@
   ]
 
 ]
+
+#slide(composer: (2fr, 2fr))[
+  #text(
+    red,
+    tree-list(
+      marker: text(aqua)[├── ],
+      last-marker: text(aqua)[└── ],
+      indent: text(aqua)[│],
+      empty-indent: h(2em),
+    )[
+      - SOLID原則
+        - S: Single Responsibility Principle
+        - O: Open/Closed Principle
+        - L: Liskov Substitution Principle
+        - I: Interface Segregation Principle
+        - D: Dependency Inversion Principle
+
+    ],
+  )
+][
+  設計原則：
+
+  #text(
+    red,
+    tree-list(
+      marker: text(aqua)[├── ],
+      last-marker: text(aqua)[└── ],
+      indent: text(aqua)[│],
+      empty-indent: h(2em),
+    )[
+      - DRY: don't repeat yourself
+      - KISS: keep it simple and stupid
+      - POLA: principle of least astonishment
+      - YANGI: you aren't gonna need it
+      - POLP: principle of least privilege
+    ],
+  )
+]
+
 
 #slide()[
   #quoteblock([Richard Hamming])[
