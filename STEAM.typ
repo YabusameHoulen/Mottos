@@ -14,7 +14,7 @@
     title: [STEAM Motto Collections],
     subtitle: [The Wisdom Quotes I Appreciate],
     author: [岡崎夢美教授],
-    date: datetime.today(),
+    date: [2025年3月14日],
     institution: [東雲研究所],
     logo: emoji.crystal,
   ),
