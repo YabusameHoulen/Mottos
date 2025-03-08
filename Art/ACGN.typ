@@ -37,6 +37,20 @@
   #image("../Figures/Art/roxy.jpg", fit: "stretch", height: 135%, width: 117%)
 ]
 
+#focus-slide(config: config-page(fill: rgb(0, 0, 0)))[
+  #place(
+    center,
+    dy: -20pt,
+    image("../Figures/Art/reimu_gun.jpg"),
+  )
+  #place(
+    bottom + center,
+    dy: 30pt,
+    text(fill: white)[_Lolita, light of my life, fire of my loins. My sin, my soul._],
+  )
+]
+
+
 
 #focus-slide(config: config-page(fill: rgb(0, 0, 0)))[
 
