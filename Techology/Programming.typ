@@ -77,6 +77,14 @@
   ]
 ]
 
+#focus-slide()[
+  #place(
+    center + bottom,
+    dy: 60pt,
+    image("../Figures/Techology/python_env.png", fit: "stretch", width: 118%, height: 135%),
+  )
+]
+
 #slide()[
   #quoteblock([Larry Wall], inset: 30pt)[
     *私有屬性的安全性和保障性*: Perl不會強制你保護隱私。你應該呆在客廳外，因為你沒有受到邀請，而不是因為裡面有把槍
@@ -168,34 +176,40 @@
 ]
 
 #slide()[
-  #text(red, tree-list(
-  marker: text(aqua)[├── ],
-  last-marker: text(aqua)[└── ],
-  indent: text(aqua)[│],
-  empty-indent: h(3em),
-)[
-  - Iterators.accumulate(f, itr; [init])
-  - accumulate(op, A; dims::Integer, [init])
-    - cumsum(A; dims::Integer)
-    - cumproduct(A; dims::Integer)
+  #text(
+    red,
+    tree-list(
+      marker: text(aqua)[├── ],
+      last-marker: text(aqua)[└── ],
+      indent: text(aqua)[│],
+      empty-indent: h(3em),
+    )[
+      - Iterators.accumulate(f, itr; [init])
+      - accumulate(op, A; dims::Integer, [init])
+        - cumsum(A; dims::Integer)
+        - cumproduct(A; dims::Integer)
 
-])
+    ],
+  )
 ][
-  #text(red, tree-list(
-  marker: text(aqua)[├── ],
-  last-marker: text(aqua)[└── ],
-  indent: text(aqua)[│],
-  empty-indent: h(3em),
-)[
+  #text(
+    red,
+    tree-list(
+      marker: text(aqua)[├── ],
+      last-marker: text(aqua)[└── ],
+      indent: text(aqua)[│],
+      empty-indent: h(3em),
+    )[
 
-  - reduce(f, A; dims=:, [init])
-  - mapslices(f, A; dims)
-  - foldl(op, itr; [init])
-  - foldr(op, itr; [init])
-  - mapreduce $-->$ implement dependent
-    - mapfoldl(f, op, itr; [init])
-    - mapfoldr(f, op, itr; [init])
-])
+      - reduce(f, A; dims=:, [init])
+      - mapslices(f, A; dims)
+      - foldl(op, itr; [init])
+      - foldr(op, itr; [init])
+      - mapreduce $-->$ implement dependent
+        - mapfoldl(f, op, itr; [init])
+        - mapfoldr(f, op, itr; [init])
+    ],
+  )
 ]
 
 
