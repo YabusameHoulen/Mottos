@@ -16,10 +16,21 @@
     The amount of theoretical ground one has to cover before being able to solve problems of real practical value is rather large, but this circumstance is an inevitable consequence of the fundamental part played by transformation theory and is likely to become more pronounced in the theoretical physics of the future.
   ]
   #v(1em)
+  #quoteblock([Paul Adrien Maurice Dirac], inset: 0pt)[
+    The most powerful method of advance that can be suggested at present is to employ all the resources of pure mathematics in attempts to perfect and generalise the mathematical formalism that forms the existing basis of theoretical physics, and after each success in this direction, to try to interpret the new mathematical features in terms of physical entities (by a process like Eddington’s Principle of Identification)
+  ]
+]
+
+#slide()[
+  #quoteblock([Eddington’s The Principle of Identification])[
+    Mathematics of a physical theory had to be developed at a priori level before the identification of physically accessible quantities took place.
+  ]
+  #v(2em)
   #quoteblock([Steven Weinberg])[
     The effort to understand the Universe is one of the very few things that lifts human life above the level of farce, and gives it some of the grace of tragedy.
   ]
 ]
+
 
 #slide()[
   #quoteblock([Subrahmanyan Chandrasekhar _The Mathematical Theory of Black Holes_])[
