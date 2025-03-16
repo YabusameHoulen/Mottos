@@ -53,3 +53,9 @@
     It can scarcely be denied that the supreme goal of all theory is to make the irreducible basic elements as simple and as few as possible without having to surrender the adequate representation of a single datum of experience.
   ]
 ]
+
+#slide()[
+  #quoteblock([米切尔·格林])[
+    一旦你遇到弦论并且意识到近百年来物理学差不多全部的主要进展---它们是如此完美---均源于这么一个简单的起点，你就会懂得这个具有难以置信的吸引力的理论是独一无二的。
+  ]
+]
