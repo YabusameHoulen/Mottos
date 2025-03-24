@@ -26,10 +26,11 @@
 ]
 
 #slide()[
-  #quoteblock([Friedrich Nietzsche, Aphorism 146, _Beyond Good and Evil(tr. M. Faber)_], inset: 0pt)[
-    Anyone who fights with monsters should take care that he does not in the process become a monster. And if you gaze for long into the abyess, the abyess gazes back into you.
+  #quoteblock([Guts (Berserk)], inset: 30pt)[
+    You're going to be alright. You just stumbled over a stone in the road. It means nothing.
+    Your goal lies far beyond this...doesn't it? I'm sure you'll over come this.
+    You'll walk again. Soon.
   ]
-
 ]
 
 #focus-slide(config: config-page(fill: rgb(0, 0, 0)))[
