@@ -31,6 +31,10 @@
     Your goal lies far beyond this...doesn't it? I'm sure you'll over come this.
     You'll walk again. Soon.
   ]
+  #v(2em)
+  #quoteblock([西乡隆盛], inset: 30pt)[
+    孩儿立志出乡关，学不成名誓不还
+  ]
 ]
 
 #focus-slide(config: config-page(fill: rgb(0, 0, 0)))[
