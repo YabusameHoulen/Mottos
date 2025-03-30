@@ -38,14 +38,12 @@
 ]
 
 #slide()[
-  #quoteblock([Guts (Berserk)], inset: 30pt)[
-    You're going to be alright. You just stumbled over a stone in the road. It means nothing.
-    Your goal lies far beyond this...doesn't it? I'm sure you'll over come this.
-    You'll walk again. Soon.
-  ]
-  #v(2em)
   #quoteblock([高君宇], inset: 30pt)[
     我是宝剑，我是火花。我愿生如闪电之耀亮，我愿死如彗星之迅忽。
+  ]
+  #v(2em)
+  #quoteblock([Richard Feynman], inset: 30pt)[
+    What I cannot create, I do not understand.
   ]
 ]
 
