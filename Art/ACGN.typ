@@ -32,26 +32,30 @@
     You'll walk again. Soon.
   ]
   #v(2em)
-  #quoteblock([西乡隆盛], inset: 30pt)[
-    孩儿立志出乡关，学不成名誓不还
+  #quoteblock([西鄉隆盛], inset: 30pt)[
+    孩兒立志出鄉關，學不成名誓不還
   ]
 ]
 
 #slide()[
   #quoteblock([高君宇], inset: 30pt)[
-    我是宝剑，我是火花。我愿生如闪电之耀亮，我愿死如彗星之迅忽。
+    我是寶劍，我是火花。我願生如閃電之耀亮，我願死如彗星之迅忽。
   ]
   #v(2em)
-  #quoteblock([Richard Feynman], inset: 30pt)[
-    What I cannot create, I do not understand.
+  #quoteblock([江青],inset: 30pt)[
+    性只是第一輪，但男人真正長期感興趣的是權力
   ]
 ]
-
-
 
 #focus-slide(config: config-page(fill: rgb(0, 0, 0)))[
 
   #image("../Figures/Art/roxy.jpg", fit: "stretch", height: 135%, width: 117%)
+]
+
+#slide()[
+  #quoteblock([],inset: 30pt)[
+
+  ]
 ]
 
 #focus-slide(config: config-page(fill: rgb(0, 0, 0)))[
