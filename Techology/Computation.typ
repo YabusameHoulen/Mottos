@@ -81,6 +81,13 @@
 ]
 
 #slide()[
+  #quoteblock([Phil Karlton],inset: 30pt)[
+    There are only two hard things in Computer Science: \ cache invalidation and naming things.
+  ]
+]
+
+
+#slide()[
   #quoteblock([Brain Harvey and Matthew Wright _Simple Scheme_'s Preface])[
     計算機的教學方法分為兩個流派，可以描述如下：
 
