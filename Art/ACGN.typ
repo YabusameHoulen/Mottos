@@ -53,8 +53,8 @@
 ]
 
 #slide()[
-  #quoteblock([],inset: 30pt)[
-
+  #quoteblock([Kirisame Marisa],inset: 30pt)[
+    只有華麗並不是魔法，彈幕最重要的是火力DAZE~！
   ]
 ]
 
