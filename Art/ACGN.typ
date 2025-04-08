@@ -56,6 +56,11 @@
   #quoteblock([Kirisame Marisa],inset: 30pt)[
     只有華麗並不是魔法，彈幕最重要的是火力DAZE~！
   ]
+  #v(3em)
+  #quoteblock([ 東方紅魔郷～ the Embodiment of Scarlet Devil \ Kirisame Marisa ])[
+    你能記得清楚到今天為止自己吃過的麵包的數量嗎？\
+    13塊，我是和食主義者
+  ]
 ]
 
 #focus-slide(config: config-page(fill: rgb(0, 0, 0)))[
