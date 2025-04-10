@@ -77,6 +77,11 @@
 ]
 
 
+#focus-slide(config: config-page(fill: rgb(0, 0, 0)))[
+
+  #image("../Figures/Art/air.jpg", fit: "stretch", height: 135%, width: 117%)
+]
+
 
 #focus-slide(config: config-page(fill: rgb(0, 0, 0)))[
 
