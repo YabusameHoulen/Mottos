@@ -42,7 +42,7 @@
     我是寶劍，我是火花。我願生如閃電之耀亮，我願死如彗星之迅忽。
   ]
   #v(2em)
-  #quoteblock([江青],inset: 30pt)[
+  #quoteblock([江青], inset: 30pt)[
     性只是第一輪，但男人真正長期感興趣的是權力
   ]
 ]
@@ -53,7 +53,7 @@
 ]
 
 #slide()[
-  #quoteblock([Kirisame Marisa],inset: 30pt)[
+  #quoteblock([Kirisame Marisa], inset: 30pt)[
     只有華麗並不是魔法，彈幕最重要的是火力DAZE~！
   ]
   #v(3em)
@@ -78,8 +78,19 @@
 
 
 #focus-slide(config: config-page(fill: rgb(0, 0, 0)))[
-
   #image("../Figures/Art/air.jpg", fit: "stretch", height: 135%, width: 117%)
+]
+
+#slide()[
+  #quoteblock([Kamio Misuzu], inset: 30pt)[
+    観鈴ちん、ぴんち
+  ]
+  #quoteblock([Kamio Misuzu], inset: 30pt)[
+    どうしてそういうことするかなぁ
+  ]
+  #quoteblock([Kamio Misuzu], inset: 30pt)[
+    が…がお…
+  ]
 ]
 
 
